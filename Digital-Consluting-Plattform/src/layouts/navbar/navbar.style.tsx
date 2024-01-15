@@ -1,7 +1,7 @@
 import styled from "styled-components"
 
 export const Nav=styled.div.attrs({
-    className:"bg-black border-gray-200 dark:bg-gray-900"
+    className:"bg-lime-500"
 })``;
 
 export const NavContainer=styled.div.attrs({
