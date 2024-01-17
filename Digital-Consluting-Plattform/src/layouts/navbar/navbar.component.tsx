@@ -1,6 +1,4 @@
-
-import NavLogo from "../../components/navbar-logo/navbar-logo.component";
-import NavSections from "../../components/navbar-sections/navbar-sections.component";
+import nav from "./index"
 import { Nav, NavContainer } from "./navbar.style";
 
 export  default function NavBar(){
@@ -8,8 +6,8 @@ export  default function NavBar(){
         <>
 <Nav>
     <NavContainer>
-        <NavLogo />
-        <NavSections />
+        <nav.NavLogo />
+        <nav.NavSections />
         
     </NavContainer>
 </Nav>
