@@ -1,5 +1,6 @@
 import alse from "../../assets/alse.svg"
 export default function NavLogo(){
+    console.log(alse);
     return(
         <>
         <a href="#" className="flex items-center space-x-3 rtl:space-x-reverse ">

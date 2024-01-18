@@ -1,4 +1,4 @@
-import nav from "./index"
+import n from "./index"
 import { Nav, NavContainer } from "./navbar.style";
 
 export  default function NavBar(){
@@ -6,8 +6,8 @@ export  default function NavBar(){
         <>
 <Nav>
     <NavContainer>
-        <nav.NavLogo />
-        <nav.NavSections />
+        <n.NavLogo />
+        <n.NavSections />
         
     </NavContainer>
 </Nav>

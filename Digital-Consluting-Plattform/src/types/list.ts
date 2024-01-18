@@ -63,13 +63,13 @@ link:""
        ];
 
 
-       type ListItem = {
+       export type ListItem = {
         name: string;
         link: string;
         children?: ListItem[];
       };
 
-      const lists=[
+      export const lists=[
         {
             company: [
               {
