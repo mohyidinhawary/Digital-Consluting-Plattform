@@ -1,30 +1,21 @@
 import { Outlet } from "react-router-dom";
 import Footer from "./layouts/footer/footer.component";
 import NavBar from "./layouts/navbar/navbar.component";
-import SideBar from "./layouts/sidebar/sidebar.component";
+
 import Carousel from "./components/carousel/carousel.component";
-
-
-
+import About from "./components/about/about.component";
 
 function App() {
   return (
     <>
-   
-    <NavBar />
-   
-      <Carousel  />
-<Footer />
+      <NavBar />
 
-   <Outlet />
-    
-    
+      <Carousel />
+      <About />
+      <Footer />
 
-    
-   
-
+      <Outlet />
     </>
-    
   );
 }
 

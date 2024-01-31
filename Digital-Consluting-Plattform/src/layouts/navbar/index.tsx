@@ -1,9 +1,7 @@
+import NavLogo from "./navbar-logo.component";
+import NavSections from "./navbar-sections.component";
 
-import NavLogo from "../../components/navbar-logo/navbar-logo.component";
-import NavSections from "../../components/navbar-sections/navbar-sections.component";
-
-export default{
-    
-    NavLogo,
-    NavSections
+export default {
+  NavLogo,
+  NavSections,
 };
