@@ -4,6 +4,7 @@ import NavBar from "./layouts/navbar/navbar.component";
 
 import Carousel from "./components/carousel/carousel.component";
 import About from "./components/about/about.component";
+import { ReviewCard } from "./components/reviewscard/reviewcard.component";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
 
       <Carousel />
       <About />
+      <ReviewCard />
       <Footer />
 
       <Outlet />
