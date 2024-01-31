@@ -144,4 +144,10 @@ link:""
           }
 
         ];
+
+        export interface IList {
+          items:any[];
+          resourceName:any
+          ItemComponent:any
+      }
     
